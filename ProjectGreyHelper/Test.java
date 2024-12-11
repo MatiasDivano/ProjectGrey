@@ -18,13 +18,5 @@ public class Test{
         for (String x : line) {
             System.out.print(x + " ");
         }
-
-        /*
-        for (int i = 0; i < 10; i++) {
-            int x = (int) (Math.random() * 3);
-            int y = (int) (Math.random() * 4);
-            System.out.print(matrix[x][y] + "\n");
-        }
-        */
     }
 }

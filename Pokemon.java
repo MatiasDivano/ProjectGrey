@@ -20,10 +20,10 @@ public class Pokemon {
     int level, Move[][] movepool, Move[] moves,
     Pokemon[] prevo, Pokemon[] evo) {
 
-        // esto va a ser rellenado por un lector de CSVs, por ahora voy a confiar que siempre va a estar bien hecho.
+        //esto va a ser rellenado por un lector de CSVs, por ahora voy a confiar que siempre va a estar bien hecho.
 
-        this.id = id;
         this.name = name;
+        this.id = id;
         this.entry = entry;
         this.type1 = type1;
         this.type2 = type2;

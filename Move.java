@@ -1,6 +1,6 @@
 public class Move {
 
-    private int pp;             // > 0
+    private int pp;            // > 0
     private String dam;
     private int acc;            // > 0, si = 0 entonces es PROPIO, ZONA o ALIADO, se pone --
     private String name;
